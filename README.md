@@ -1,16 +1,26 @@
-# React + Vite
+# Tienda de Libros - Solis Carolina (Semana 4)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+ **Enlace al repositorio:** [https://github.com/carosolis45/tienda-libros-solis-carolina-DRY7123](https://github.com/carosolis45/tienda-libros-solis-carolina-DRY7123)
 
-Currently, two official plugins are available:
+Este es un proyecto desarrollado para la asignatura **Frontend II** (Sigla: DRY7123).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Descripción
+Aplicación web para una tienda de libros que permite explorar diferentes categorías. El proyecto integra una **API REST Mock** para simular la obtención de datos desde un backend, utilizando **React** y **React Router** para la navegación.
 
-## React Compiler
+## Funcionalidades
+* **Conexión con API Mock:** Uso de `async/await` y `useEffect` para simular la carga de datos desde un servidor.
+* **Navegación con React Router:** Rutas dinámicas (`/categoria/:id`) para mostrar los libros de cada categoría.
+* **Componente Navbar:** Menú superior con enlaces activos.
+* **Diseño responsivo:** Estilizado con **Tailwind CSS** en modo oscuro.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías utilizadas
+* React
+* React Router
+* Tailwind CSS
+* Vite
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Instalación y ejecución
+1. Clonar el repositorio.
+2. Instalar las dependencias con `npm install`.
+3. Ejecutar el servidor local con `npm run dev`.
+4. Abrir el navegador en `http://localhost:5173/`.
